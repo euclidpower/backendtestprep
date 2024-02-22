@@ -1,0 +1,9 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-minitest
+
+AllCops:
+  NewCops: enable
+Style/Documentation:
+  Enabled: false
