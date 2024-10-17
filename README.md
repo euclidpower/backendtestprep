@@ -15,18 +15,25 @@ $ ruby -v
 #=> ruby 3.2.2...
 ```
 
-Verify you have Rails 7+ installed:
-
-```bash
-$ rails -v
-#=> Rails 7...
-```
-
 Verify you have Bundler 2.0+ installed:
 
 ```bash
 $ bundler -v
 #=> Bundler version 2...
+```
+
+Run bundler to install the gems (including Rails)
+
+```bash
+$ bundle install
+#=> Bundle complete!...
+```
+
+Verify you have Rails 7+ installed:
+
+```bash
+$ rails -v
+#=> Rails 7...
 ```
 
 If all of the above are true, you're ready to continue! If one or more of the above are not true, you can use the [GoRails](https://gorails.com/setup) setup guide to help you install Ruby 3+, Rails 7+, and Bundler 2+ on your machine.
